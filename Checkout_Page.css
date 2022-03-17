@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+html {
+    font-family: 'Baloo Tammudu 2', 'Franklin Gothic Medium', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: darkolivegreen;
+    height: 55px;
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  p.a {word-spacing: 10cm;}
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-25 {
+      margin-bottom: 20px;
+    }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  hr.dotted {
+    border-top: 3px dotted rgb(161, 160, 160);
+  }
+  
+  .card {
+      border: none
+  }
+  
+  .btn-light:focus {
+      color: #212529;
+      background-color: #e2e6ea;
+      border-color: #dae0e5;
+      box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)
+  }
+  
+  .form-control {
+      height: 50px;
+      border: 2px solid #eee;
+      border-radius: 6px;
+      font-size: 14px
+  }
+  
+  .form-control:focus {
+      color: #495057;
+      background-color: #fff;
+      border-color: #039be5;
+      outline: 0;
+      box-shadow: none
+  }
+  
+  .input {
+      position: relative
+  }
+  
+  .input i {
+      position: absolute;
+      top: 16px;
+      left: 11px;
+      color: #989898
+  }
+  
+  .input input {
+      text-indent: 25px
+  }
+  
+  .card-text {
+      font-size: 13px;
+      margin-left: 6px
+  }
+  
+  .checkout {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    float: right;
+    width: 15%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 15px;
+  }
+  
+  .checkout:hover {
+    background-color: #45a049;
+  }  
+
+/*classes added*/
+
+  .checkout-section {
+      margin-left: 20px;
+  }
+
+  .image {
+    margin-right: 15px;
+  }
+
+  .payment-section {
+      margin-left: 15px;
+  }
+
+  .mb-0 {
+      margin-bottom: 0;
+  }
+
+  .payment-card-body {
+      margin-top: 5px;
+  }
+
+  .col-md-6 {
+      margin-top: 20px;
+  }
+
+.total {
+    margin-right: 15px;
+}
+
+hr {
+    width: 98%;
+}
+
+/* navbar */
+
+  #navbar {
+    margin-bottom: 30px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 235, 235);
+    border-bottom: solid 5px rgba(0, 22, 22, 0.4);
+}
+
+#navbar li {
+    float: left;
+    padding: 25px 50px;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(105, 89, 17);
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.BrandName {
+    font-size: 23px;
+}
+/* searchbar & button */
+
+.searchbar {
+    float: right;
+    padding: 30px;
+}
+
+.searchButton {
+    padding: 8px;
+}
+
+.searchbox {
+    padding: 7px;
+}
+
+/* footer */
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(126, 115, 115);
+    color: white;
+    border-top: 3px solid black;
+}
+
+.footer-title {
+    background-color: rgb(92, 72, 72);
+    padding: 12px;
+    padding-bottom: 0;
+    border-radius: 8px;
+}
+
+.social-media {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}

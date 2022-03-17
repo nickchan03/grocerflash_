@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+html {
+    font-family: 'Baloo Tammudu 2', 'Franklin Gothic Medium', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 235, 235);
+}
+
+#navbar li {
+    float: left;
+    display: inline;
+    padding: 25px 50px;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(105, 89, 17);
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.BrandName {
+    font-size: 23px;
+}
+
+#header {
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 50px;
+}
+
+.why-pick-us {
+    text-align: center;
+    background-color: rgb(67, 95, 12);
+    color: white;
+    padding: 50px;
+}
+
+.how-to-start {
+    text-align: center;
+    background-color: rgb(77, 95, 41);
+    color: white;
+    padding: 50px;
+}
+
+.button {
+    border: none;
+    background-color: lightgreen;
+    color: rgb(20, 7, 7);
+    padding: 5px 15px;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 11px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(65, 61, 61);
+    color: white;
+    border-top: 3px solid black;
+}
+
+.footer-title {
+    background-color: gray;
+    padding: 12px;
+    padding-bottom: 0;
+    border-radius: 8px;
+}
+
+.social-media {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid black;
+}
+
+.register-link {
+    text-decoration: none;
+    color: black;
+}

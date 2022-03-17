@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Checkout_Page.css"/>
+    <link href="https://css.gg/search.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Checkout Page</title>
+</head>
+
+<body>
+  <navbar id="navbar">
+    <ul>
+      <li class="BrandName" style="padding: 0; padding-top: 16px; padding-left: 20px; padding-right: 5px;">
+        <a href="Starting-Page.html" style="font-size: 30px; padding: 0; padding-top: 16px; padding-left: 20px; padding-right: 5px;"><b>GrocerFlash<sup style="font-size: small;color: black;">&copy;</sup></b></a>
+    </li>
+        <li><a href="Keyon/Login.html">Log In / Register</a></li>
+        <li><a href="#">Cart (3)</a></li>
+        <li><a href="Grocer-Page.html">Products</a></li>
+        <li><a href="Customer Support Page/Customer-Support.html">Customer Support</a></li>
+        <div class="searchbar">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search for..." name="search" class="searchbox">
+                <button type="submit" class="searchButton"><span class="gg-search"></span></button>
+            </form>
+        </div>
+    </ul>   
+  </navbar>
+  <h1 style="color: rgb(255, 255, 255);">GROCER FLASH</h1>
+  <hr class="dotted">
+
+  <section class="checkout-section">
+    <b style="font-size: 25px;">Checkout</b>
+
+    <br>
+    <b><p style="font-size: 15px;">Shipping Address<img class="image" src="https://cdn0.iconfinder.com/data/icons/facebook-ui-glyph/48/Sed-21-512.png" alt="location" width="60" height="50" style="float:left;"></p></b>
+    <p>
+      <pre style="color: darkgrey;">Jojo Wen   012-3456789   
+      19, Taman HillSky, Jalan Weesean 02391, Malaysia.
+      </pre>
+    </p>
+  </section>
+  <hr class="dotted">
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart 
+        <span class="price" style="color:black">
+          <i class="shopping-cart"></i> 
+          <b>3</b>
+        </span>
+      </h4>
+      <p>
+        <img class="image" src="https://pallifeware.com/wp-content/uploads/2020/09/1603124234801.jpg" alt="letuce" width="60" height="50" style="float:left;">Fresh Lettuce</p> 
+        <span class="price">RM8.00</span>
+      </p>
+      <p class="a" style="color: darkgrey;">
+        Variation:500g 
+        Qty:1
+      </p>
+
+    <p>
+      <img class="image" src="https://sugarspunrun.com/wp-content/uploads/2020/03/Cookies-and-cream-cookies-recipe-1-of-1.jpg" alt="cookies" width="60" height="50" style="float:left;">Munchkin Cream Cookies</p> 
+      <span class="price">RM10.00</span>
+    </p>
+      <p class="a" style="color: darkgrey;">
+        Variation:400g 
+        Qty:2
+    </p>
+    
+    <p>
+      <img class="image" src="https://assets.bonappetit.com/photos/5c62e4a3e81bbf522a9579ce/5:4/w_2815,h_2252,c_limit/milk-bread.jpg" alt="milk-bread" width="60" height="50" style="float:left;">Wholemeal Bread</p> 
+      <span class="price">RM7.00</span>
+    </p>
+
+    <p class="a" style="color: darkgrey;">
+        Variation:800g 
+        Qty:1
+    </p>
+  
+    <p>Delivery Fees (Standard delivery) <span class="price">RM5.00</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>RM30.00</b></span></p>
+    </div>
+  </div>
+
+  <div style="text-align: right;">
+  <p><b>Shop Voucher Code:<input type="text" id="myText"></b><button type="submit">Enter</button></p>
+  </div>
+  <div style="text-align: right;">
+    <label>
+        <input type="checkbox" checked="checked" name="sameadr"> I agree to the <a href="https://www.agreetotnc.com/">terms and conditions</a>
+    </label>
+  </div> <br>
+
+
+<hr class="dotted">
+  <section class="payment-section">
+  <div class="d-flex justify-content-center mt-5 mb-5">
+    <div class="col-md-6" style="font-size: 25px;"> <span><b>Payment Method</b></span></div>
+    <div class="card">
+      <h2 class="mb-0"> <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom" style="width: 110px;" type="button"  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <div class="d-flex align-items-center justify-content-between"> <span>Cash On Delivery</span> <img src="https://previews.123rf.com/images/roxanabalint/roxanabalint1503/roxanabalint150300263/38208489-cash-on-delivery-grunge-rubber-stamp-on-white-background-vector-illustration.jpg" width="30"> 
+      </div>
+    </button></h2>
+    
+    <div class="card-header p-0" id="headingTwo">
+        <h2 class="mb-0"> 
+          <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+    <div class="paypal"> <span>Paypal</span> <img src="https://w7.pngwing.com/pngs/875/329/png-transparent-paypal-logo-e-commerce-payment-system-paypal-blue-angle-company.png" width="30"> 
+    </div>
+    </button> </h2>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+    <div class="card-body"> <input type="text" class="form-control" placeholder="Paypal email"> </div>
+                                                      
+  </div>    
+
+  <div class="card">
+    <div class="card-header p-0">
+        <h2 class="mb-0"> <button class="btn btn-light btn-block text-left p-3 rounded-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <div class="d-flex align-items-center justify-content-between"> <span>Credit card</span>
+    <div class="icons"> <img src="https://image.pngaaa.com/401/197401-middle.png" width="30"> <img src="https://www.pngfind.com/pngs/m/471-4717614_visa-logo-png-transparent-visa-card-vector-png.png" width="30"> <img src="https://w7.pngwing.com/pngs/903/316/png-transparent-stripe-payment-gateway-payment-processor-authorize-net-colored-stripes.png" width="40"> <img src="https://image.pngaaa.com/401/197401-middle.png" width="30"> </div>
+    
+  </div>
+  </button> </h2>
+    <div class="card-body payment-card-body"> <span class="font-weight-normal card-text">Card Number</span></div>
+    <div class="input"> <i class="fa fa-credit-card"></i> <input type="text" class="form-control" placeholder="0000 0000 0000 0000"> </div>
+    <div class="row mt-3 mb-3">
+    <div class="col-md-6"> <span class="font-weight-normal card-text">Expiry Date</span></div>
+    <div class="input"> <i class="fa fa-calendar"></i> <input type="text" class="form-control" placeholder="MM/YY"> </div>
+  </div>
+    <div class="col-md-6"> <span class="font-weight-normal card-text">CVC/CVV</span></div>
+    <div class="input"> <i class="fa fa-lock"></i> <input type="text" class="form-control" placeholder="000"> </div>
+  </div>
+            <div style="font-size: 15px;color: rgb(31, 42, 197);"> <span class="text-muted certificate-text"><i class="fa fa-lock"></i><b>*Your transaction is secured with SSL certificate.*</b></span>
+            </div> 
+  </div> <br>
+  </section>
+  <hr>
+  <div style="font-size: 15px;text-align: right; color: rgb(116, 116, 116);" class="total">
+  <p>Groceries Subtotal: RM25.00</p>
+  <p>Shipping Total: RM5.00</p>
+  <p>Total Payment: RM30.00</p>
+  </div>
+  <hr class="dotted">
+  <a href="Delivery-Page-Sam.html">
+    <div>
+      <input type="submit" value="Place Order" class="checkout">
+    </div>
+  </a>
+  <br><br><br>
+
+  <footer id="footer">
+    <div class="about-us">
+        <h2 class="footer-title">ABOUT US</h2>
+        <p>Who are we?</p>
+        <p>Jobs</p>
+        <p>Available Outlets</p>
+    </div>
+
+    <div class="contact-us">
+        <h2 class="footer-title">CONTACT US</h2>
+        <label for="email">Enter your email for more news about us!</label> 
+        <br>
+        <input id="email" type="email" name="email">
+        <input type="submit">
+        <div class="social-media">
+            <span class="gg-facebook logo"></span>
+            <span class="gg-twitter logo"></span>
+            <span class="gg-instagram logo"></span>
+        </div>
+        <address>
+            5, Jalan SS3/19, 47315, Petaling Jaya, Selangor.
+        </address>
+    </div>
+    
+    <div class="support">
+        <h2 class="footer-title">SUPPORT</h2>
+        <p>FAQ</p>
+        <p>Return Policy</p>
+    </div>
+</footer>
+</body>
+</html>

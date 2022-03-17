@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+html {
+    font-family: 'Baloo Tammudu 2', 'Franklin Gothic Medium', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: ivory;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+body{
+    margin: 0px;
+}
+
+#header{
+    background-color: greenyellow;
+}
+
+#robot{
+    height: 100px;
+    width: 115px;
+    background-image:url("virtual-assistant-chat-section.png");
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: -5px 50%;
+    background-position-y: 0px;
+    margin: 0px
+}
+
+#messagebox{
+    background-color: greenyellow;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+
+   
+}
+
+#chatarea{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 35px;
+    width: 400px;
+}
+
+.blackbot {
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* chat bubble */ 
+.talk-bubble {
+	margin: 40px;
+    display: inline-block;
+    position: relative;
+	width: 300px;
+	height: auto;
+	background-color: rgb(202, 202, 179);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border{
+  border: 1px solid rgb(201, 101, 101);
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -40px;
+	right: auto;
+    top: -8px;
+	bottom: auto;
+	border: 1px solid;
+	border-color: rgb(202, 202, 179) transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -20px;
+	right: auto;
+    top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: rgb(202, 202, 179) transparent transparent transparent;
+}
+

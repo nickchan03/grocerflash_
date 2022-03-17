@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: 'Baloo Tammudu 2', 'Franklin Gothic Medium', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: violet; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button1:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: violet; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button2:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: violet; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button3:hover {
+    background-color: purple;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: violet; 
+    color: black; 
+    border: 2px solid purple;
+  }
+  
+  .button4:hover {
+    background-color: purple;
+    color: white;
+  }
+
+   /* Popup container - can be anything you want */
+   .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* adding stuff */
+.map {
+    width: 97%;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.deliveryman {
+    width: 100%;
+    text-align: center;
+}
+
+.package-delivery {
+    margin-left: 15px;
+}
+
+.eta {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.table{
+    margin: 10px;
+    margin-bottom: 55px;
+}
+
+.buttons {
+    margin-left: 15px;
+}
+
+.button {
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.popup {
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid black;
+    float: right;
+    margin-right: 30px;
+}
+  /* navigation bar start */
+
+#navbar {
+    margin-bottom: 30px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 235, 235);
+    border-bottom: solid 5px rgba(0, 22, 22, 0.4);
+}
+
+#navbar li {
+    float: left;
+    padding: 25px 50px;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(105, 89, 17);
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.BrandName {
+    font-size: 23px;
+}
+/* searchbar & button */
+
+.searchbar {
+    float: right;
+    padding: 30px;
+}
+
+.searchButton {
+    padding: 8px;
+}
+
+.searchbox {
+    padding: 7px;
+}
+
+/* footer */
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(126, 115, 115);
+    color: white;
+    border-top: 3px solid black;
+}
+
+.footer-title {
+    background-color: rgb(92, 72, 72);
+    padding: 12px;
+    padding-bottom: 0;
+    border-radius: 8px;
+}
+
+.social-media {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    margin-top: 9px;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GrocerFlash: Online Grocery Shopping</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Grocer_Page.css"/>
+        <link href="https://css.gg/search.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script>
+            // When the user clicks on <div>, open the popup
+            function grocerPopUp() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
+    </head>
+    <body>
+<!--Navigation Bar-->
+            <navbar id="navbar">
+            <ul>
+                <li class="BrandName" style="padding: 0; padding-top: 16px; padding-left: 20px; padding-right: 5px;">
+                    <a href="Starting-Page.html" style="font-size: 30px; padding: 0; padding-top: 16px; padding-left: 20px; padding-right: 5px;"><b>GrocerFlash<sup style="font-size: small;color: black;">&copy;</sup></b></a>
+                </li>
+                <li><a href="Keyon/Login.html">Log In / Register</a></li>
+                <li><a href="Checkout-Page-Athira.html">Cart (3)</a></li>
+                <li><a href="#">Sort by:</a></li>
+                <li><a href="Customer Support Page/Customer-Support.html">Customer Support</a></li>
+                <div class="searchbar">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search for..." name="search" class="searchbox">
+                        <button type="submit" class="searchButton"><span class="gg-search"></span></button>
+                    </form>
+                </div>
+            </ul>   
+            </navbar>
+        <main>
+<!--Products Navigation Bar-->
+            <div class="boxed">
+                <section class="sidebar">
+                    <h2 class="sidebar-header">PRODUCTS</h2>
+                    <ul class="sidebar-contents">
+                        <li><a href="#" class=>Vegetables</a></li>
+                        <li><a href="#">Fruits</a></li>
+                        <li><a href="#">Meat</a></li>
+                        <li><a href="#">Food & Drinks</a></li>
+                        <li><a href="#">Cheese</a></li>
+                        <li><a href="#">Household Products</a></li>
+                    </ul>
+                </section>
+<!--Products List-->
+                <section class="product-list">
+                    <div class="product-box">
+                        <a class="product-link" href="Product-Page.html">
+                            <img class="productImage" src="Images/broccoli.jpg">
+                            <div class="productName"><h2>Broccoli</h2></div>
+                        </a>
+                        <div class="productPrice"><p>RM3.50</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <br>
+                        <button type="button" class="productButton" onclick="grocerPopUp()">Add to Cart
+                            <span class="popuptext" id="myPopup">Item added!</span>
+                        </button>
+                    </div>
+
+                    <div class="product-box">
+                        <img class="productImage" src="Images/carrot.jpg">
+                        <div class="productName"><h2>Carrot</h2></div>
+                        <div class="productPrice"><p>RM2.50</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star_half</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+
+                    <div class="product-box">
+                        <img class="productImage" src="Images/cucumber.jpg">
+                        <div class="productName"><h2>Cucumber</h2></div>
+                        <div class="productPrice"><p>RM4.50</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star_half</span>
+                        <span class="material-icons">star_outline</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+            </div>
+            </section>
+<!--Popular Section-->
+            <section class="popular-section">
+                <h2 class="section-title">POPULAR NOW!</h2>
+                <div class="product-list">
+                    <div class="product-box">
+                        <img class="productImage" src="Images/cheese.jpg">
+                        <div class="productName"><h2>Cheese (3kg)</h2></div>
+                        <div class="productPrice"><p>RM5.00</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+                    <div class="product-box">
+                        <img class="productImage" src="Images/chocolate.jpg">
+                        <div class="productName"><h2>Chocolate</h2></div>
+                        <div class="productPrice"><p>RM2.49</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+                    <div class="product-box">
+                        <img class="productImage" src="Images/coffeebeans.jpg">
+                        <div class="productName"><h2>Coffee Beans</h2></div>
+                        <div class="productPrice"><p>RM8.00</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+<!--Recently Added-->
+            <section class="recently-added">
+                <h2 class="section-title">RECENTLY ADDED!</h2>
+                <div class="product-list">
+                    <div class="product-box">
+                        <img class="productImage" src="Images/coke.jpg">
+                        <div class="productName"><h2>Coca Cola</h2></div>
+                        <div class="productPrice"><p>RM1.49</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star_half</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+                    <div class="product-box">
+                        <img class="productImage" src="Images/milk.jpg">
+                        <div class="productName"><h2>Fresh Milk</h2></div>
+                        <div class="productPrice"><p>RM5.49</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star_half</span>
+                        <span class="material-icons">star_outline</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+                    <div class="product-box">
+                        <img class="productImage" src="Images/detergent.jpg">
+                        <div class="productName"><h2>Detergent</h2></div>
+                        <div class="productPrice"><p>RM7.99</p></div>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star</span>
+                        <span class="material-icons">star_half</span>
+                        <br>
+                        <button type="button" class="productButton">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer">
+                <div class="about-us">
+                    <h2 class="footer-title">ABOUT US</h2>
+                    <p>Who are we?</p>
+                    <p>Jobs</p>
+                    <p>Available Outlets</p>
+                </div>
+
+                <div class="contact-us">
+                    <h2 class="footer-title">CONTACT US</h2>
+                    <label for="email">Enter your email for more news about us!</label> 
+                    <br>
+                    <input id="email" type="email" name="email">
+                    <input type="submit">
+                    <div class="social-media">
+                        <span class="gg-facebook logo"></span>
+                        <span class="gg-twitter logo"></span>
+                        <span class="gg-instagram logo"></span>
+                    </div>
+                    <address>
+                        5, Jalan SS3/19, 47315, Petaling Jaya, Selangor.
+                    </address>
+                </div>
+                
+                <div class="support">
+                    <h2 class="footer-title">SUPPORT</h2>
+                    <p>FAQ</p>
+                    <p>Return Policy</p>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>

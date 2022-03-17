@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <head>
+    <title>Login To Grocer Flash</title>
+    <link rel="stylesheet" type="text/css" href="Login.css"/>
+    <link href="https://css.gg/search.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <form>  
+      <action="action_page.php" method="post">
+      <div class="form-container">
+        <div class= "user-img"></div>
+        <ul class= "list">
+          <li><h2 class="login-title">Grocer Flash Login</h2></li>
+          <div class="userid-div"> 
+            <li><label for="uname" class="titles"><b>UserID</b></label></li>
+            <li class="userid-div"><input type="text" placeholder="Enter Username" name="uname" required></li>
+          </div>
+          <li><label for="psw" class="titles"><b>Password</b></label></li> 
+          <li><input type="password" placeholder="Enter Password" name="psw" required></li>
+          <button class= "btn" type="submit" class="login-btn"><a class="login-link" href="../Grocer-Page.html">Login</a></button>
+          <label>
+          <br><input type="checkbox" checked="checked" name="Remember"><b>Remember Me</b></br>
+          </label>
+          <div class="Forgot">
+          <li><a href="register.html" class="register-link"> Register Here! </a> <!-- link to register html --></li>
+        </ul>
+    
+    </form>
+  </body>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Registration Lobby </title> 
+    <link rel="stylesheet" type="text/css" href="register.css"/>
+    <link href="https://css.gg/search.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+	<h1>Welcome to Grocer Flash!</h1>
+<body>
+<form class="full-form">
+    <div class="form">
+        <div class="upper-half">
+
+            <li class="titles">Email Address</li>
+            <input type="email"  placeholder=”Grocer123@gmail.com” name=””>
+            <button class="check-btn">Check</button>
+
+            <li class="titles">Password</li>
+                <li><input type="password" placeholder="******" name=””></li>
+
+            <li class="titles"><label for="age">Age</label></li>
+                <li><input type="text" name="userage" id="age" size="2" maxlength="2"></li>
+
+            <li class="titles"><label>Country</label></li>
+                <li><input type="text"  name="country" placeholder="Malaysia"></li>
+
+            <li class="titles"><label for="Phone">Phone Number</label>
+                <li><input type="text" id="fname" maxlength="10"></li>
+
+        </div>
+        <div class="lower-half">
+            <li class="titles"><label>Gender</label></li>
+                <label>
+                <li><input type="radio" value="f" name="gender"> Female</label></li>
+                <label>
+                <li><input value="m" type="radio" name="gender"> Male</label></li>
+
+            <li class="titles"><label for="City">City</label></li>
+                <li><select id="city" name="city"></li>
+                    <option disabled selected>--Choose City--</option>
+                    <optgroup label="Sarawak">
+                        <option>Miri</option>
+                        <option>Sibu</option>
+                        <option>Kuching</option>
+                        <option>Sarikei</option>
+                    </optgroup>
+                    <optgroup label="Others">
+                        <option>Subang Jaya</option>
+                        <option>Mid Valley</option>
+                        <option>Sunway</option>
+                        <option>I Don't Know</option>
+                    </optgroup>
+                    </select>
+
+            <li class="titles"><label>Address</label></li>
+            <textarea rows="3" cols="30"></textarea>
+            <br>
+            <button class= "btn" type="submit">Register</button>
+            <button class= "btn" type="submit"><a href="Login.html" class="login-link">Login</a></button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
